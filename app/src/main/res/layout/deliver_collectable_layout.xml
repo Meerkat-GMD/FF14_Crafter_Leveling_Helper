@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:id="@+id/collectable_81_layout"
+    android:background="@color/gray"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/collectable_level"
+        android:text="81"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:textColor="@color/mycolor"
+        android:layout_weight="1">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/collectable_deliver"
+        android:text="Deliver"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_weight="3">
+
+    </TextView>
+
+</LinearLayout>
